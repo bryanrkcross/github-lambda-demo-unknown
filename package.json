@@ -1,0 +1,27 @@
+{
+  "name": "github-create-thumbnail",
+  "version": "0.0.1",
+  "description": "AWS Lambda function to create an image thumbnail",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "gm": "^1.17.0",
+    "grunt": "^1.0.1",
+    "grunt-aws": "^0.6.2",
+    "grunt-aws-lambda": "^0.13.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-mocha-test": "^0.13.3",
+    "imagemagick": "^0.1.3",
+    "mocha": "^4.0.1",
+    "node-lambda": "^0.11.4"
+  },
+  "devDependencies": {
+    "aws-sdk": "latest",
+    "npm": "^2.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "awsoctocat",
+  "License": "Apache-2.0"
+}
